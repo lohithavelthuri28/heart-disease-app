@@ -112,6 +112,7 @@ python -m uvicorn app:app --reload --port 8000
 
 API now running at:
 👉 http://127.0.0.1:8000
+<img width="923" height="978" alt="Screenshot 2025-11-23 200422" src="https://github.com/user-attachments/assets/4329a867-d57a-494d-add9-6abf75da4a73" />
 
 Swagger docs:
 👉 http://127.0.0.1:8000/docs
@@ -132,6 +133,11 @@ npm start
 
 Frontend runs at:
 👉 http://localhost:3000
+
+<img width="930" height="1066" alt="Screenshot 2025-11-23 200459" src="https://github.com/user-attachments/assets/938dd827-5ba8-46dd-ac5f-fcb4f1832b5e" />
+
+<img width="930" height="1056" alt="Screenshot 2025-11-23 200447" src="https://github.com/user-attachments/assets/c84a621c-7e13-4904-8ef7-538efec96993" />
+
 
 📝 Notes for Reviewers
 
