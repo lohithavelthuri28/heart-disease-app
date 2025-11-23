@@ -202,3 +202,7 @@ Set-Content -Path .\.gitignore -Value @"
 (PASTE THE .gitignore CONTENT FROM ABOVE HERE)
 "@ -Encoding UTF8
 ```
+
+📄 License
+
+Education purpose.
