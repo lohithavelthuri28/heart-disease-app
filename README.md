@@ -205,4 +205,4 @@ Set-Content -Path .\.gitignore -Value @"
 
 📄 License
 
-Education purpose.
+This project is for educational and research purposes
