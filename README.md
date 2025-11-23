@@ -141,3 +141,58 @@ The frontend is included as a demonstration of how the trained model can be depl
 📄 License
 
 MIT / Any license you choose.
+
+
+✅ 2. .gitignore (Python + Node)
+
+Copy this into .gitignore:
+```
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+env/
+*.env
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Models (optional ignore)
+# backend/models/*.joblib
+
+# Dataset (optional)
+# backend/data/*.csv
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+```
+
+🔧 3. Commands to create both files automatically
+Create README.md
+
+From the project root, run:
+```
+Set-Content -Path .\README.md -Value @"
+(PASTE THE README CONTENT FROM ABOVE HERE)
+"@ -Encoding UTF8
+```
+Create .gitignore
+```
+Set-Content -Path .\.gitignore -Value @"
+(PASTE THE .gitignore CONTENT FROM ABOVE HERE)
+"@ -Encoding UTF8
+```
